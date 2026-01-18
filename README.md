@@ -12,13 +12,14 @@ This project allows you to collect your own hand gesture dataset, train a machin
 🔟 Supports 10 different gesture classes (customizable).
 
 📂 Project Structure
-├── Collecting-data.py   # Capture raw gesture images with webcam
-├── createdataset.py     # Process images → extract landmarks → save dataset
-├── Traindata.py         # Train Random Forest model and save to model.p
-├── outputcode.py        # Real-time gesture recognition
-├── data/                # Captured dataset (images per class)
-├── data.pickle          # Processed dataset (landmarks + labels)
-├── model.p              # Trained model
+
+    ── Collecting-data.py   # Capture raw gesture images with webcam
+    ── createdataset.py     # Process images → extract landmarks → save dataset
+    ── Traindata.py         # Train Random Forest model and save to model.p
+    ── outputcode.py        # Real-time gesture recognition
+    ── data/                # Captured dataset (images per class)
+    ── data.pickle          # Processed dataset (landmarks + labels)
+    ── model.p              # Trained model
 
 ⚙️ Installation
 
@@ -77,12 +78,12 @@ You can experiment with other models (e.g., SVM, Neural Networks) in Traindata.p
 
 🛠️ Requirements
 
-Python 3.8+
-OpenCV
-Mediapipe
-Scikit-lear
-Matplotlib
-Numpy
+    Python 3.8+
+    OpenCV
+    Mediapipe
+    Scikit-lear
+    Matplotlib
+    Numpy
 
 📜 License
 
